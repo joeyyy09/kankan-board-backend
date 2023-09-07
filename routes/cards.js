@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const cardsController = require("../controllers/cards"); // Import the cardsController
+const cardsController = require("../controllers/cards");
 
 // Create a new card
 router.post("/", cardsController.createCard);
