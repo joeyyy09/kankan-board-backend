@@ -10,8 +10,7 @@ app.use(express.json());
 
 // routes
 
-app.use('/api/v1/cards', cards);
-
+app.use('/api/cards', cards);
 
 const port = process.env.PORT || 5000;
 
